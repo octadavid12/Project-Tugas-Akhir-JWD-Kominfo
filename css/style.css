@@ -1,0 +1,266 @@
+	.header{
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+	text-align: center;
+	height: auto;
+	background-color: #abf107;
+	color: white;
+	padding-top: 2rem;
+	padding-bottom: 1.6rem;
+	}
+	.sidebar{
+	background-color: blue;
+	}
+	.konten{
+	background-color: red;
+	}
+	a,
+	a:hover,
+	a:focus {
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s;
+	}
+	.line {
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px dashed #ddd;
+	margin: 40px 0;
+	}
+	#header{
+		width: 100%;
+		height: 100px;
+		background-color: #fff;
+	}
+	.main {
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+	}
+	#sidebar {
+	min-width: 250px;
+	max-width: 250px;
+	background: #abf107;
+	color: #fff;
+	transition: all 0.3s;
+	}
+	#sidebar.active {
+	margin-left: -250px;
+	}
+	#sidebar .sidebar-header {
+	padding: 20px;
+	background:#abf107;
+	}
+	#sidebar ul.components {
+	padding: 20px 0;
+	border-bottom: 1px solid #fff;
+	}
+	#sidebar ul p {
+	color: #fff;
+	padding: 10px;
+	}
+	#sidebar ul li a {
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+	}
+	#sidebar ul li a:hover {
+	color: #fff;
+	background: #abf107;
+	}
+	#sidebar ul li.active>a,
+	a[aria-expanded="true"] {
+	color: #0D70B4;
+	background: #fff;
+	}
+	a[data-toggle="collapse"] {
+	position: relative;
+	}
+	.beranda::after {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	}
+	ul ul a {
+	font-size: 0.9em !important;
+	padding-left: 30px !important;
+	}
+	#content {
+	width: 100%;
+	padding: 20px;
+	min-height: 100vh;
+	transition: all 0.3s;
+	}
+	#content h1{
+	text-align: center;
+	}
+	@media (max-width: 768px) {
+	#sidebar {
+	margin-left: -250px;
+	}
+	#sidebar.active {
+	margin-left: 0;
+	}
+	#sidebarCollapse span {
+	display: none;
+	}
+	}
+	.nav-link{
+	color: black;
+	}
+	.navbar  img{
+	height: 20px;
+	width: 20px;
+	}
+	.footer {
+	background:#abf107;
+	text-align:center;
+	padding:32px 0
+	}
+	.footer p {
+	margin:0;
+	line-height:26px;
+	font-size:15px;
+	color: white;
+	}
+	.footer p a {
+	color:white
+	}
+	.footer p a:hover {
+	color:white
+	}
+	.footer img{
+	height: 40px;
+	width: 40px;
+	padding: 4px
+	}
+	.page-title {
+	float: left;
+	margin-bottom: 7.5px;
+	padding-bottom: 7.5px;
+	width: 860px;
+	border-bottom: 2px solid #CCC;
+	}
+	.page-content {
+	float: left;
+	width: 860px;
+	margin-top: 15px;
+	}
+	.page-content h4 {
+	font-size: 32px;
+	line-height: 48px;
+	}
+	.content p.quote {
+	font-style: italic;
+	font-size: 32px;
+	line-height: 48px;
+	color: #c94900;
+	}
+	.form-table tr td:first-child {
+	min-width: 175px;
+	}
+	.form-table tr {
+	line-height: 24px;
+	}
+	.table-upper-left{
+	float: left;	
+	margin-bottom: 20px;
+	}
+	.table-upper-right {
+	float: right;
+	margin-bottom: 20px;
+	}
+	.table-lower-left{
+	margin-top: 15px;
+	float: left;	
+	}
+	.table-lower-right {
+	margin-top: 15px;
+	float: right;
+	}
+	ul.table-pagination {
+	list-style: none;
+	}
+	ul.table-pagination li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	}
+	ul.table-pagination li a {
+	display: inline-block;
+	padding: 7.5px 12.5px 7.5px;
+	color: #000;
+	text-decoration: none;
+	background-color: #ccc;
+	border-radius: 5px;
+	}
+	ul.table-pagination li a:hover {
+	background-color: #E0A800;
+	color: #fff;
+	}
+	ul.table-pagination li a.active {
+	background-color: #abf107;
+	color: #fff;
+	}
+	.data-table {
+	margin: 0 auto;
+	width: 100%;
+	border-collapse: collapse;
+	}
+	.data-table, .data-table th, .data-table td {
+	padding: 5px;
+	border: 1px solid #CCC;
+	}
+	.data-table tr {
+	font-size: 14px;
+	}
+	.data-table tr th {
+	background-color: #abf107;
+	color: #fff;
+	}
+	.btn-medium {
+	padding: 7.5px 10px 7.5px !important;
+	}
+	.btn-cetak {
+	background-color: #5C3701;
+	color: #fff;
+	}
+	.btn-success {
+	background-color: #218838;
+	color: #fff;
+	}
+	.btn-hapus {
+	background-color: #C82333;
+	color: #fff;
+	}
+	.btn-ubah {
+	background-color: #E0A800;
+	color: #fff;
+	}
+	.btn-info {
+	background-color:#abf107 ;
+	color: #fff;
+	}
+	.btn-print {
+	margin: auto auto -17.5px;
+	}
+	.text-center {
+	text-align: center;
+	}
+	.text-right {
+	text-align: right;
+	}
+	.mg-top-5 {
+	margin-top: 5px;
+	}
+	.mg-top-10 {
+	margin-top: 10px;
+	}
+	.mg-top-15 {
+	margin-top: 15px;
+	}
+	.mg-btm-5 {
+	margin-bottom: 5px;
+	}
